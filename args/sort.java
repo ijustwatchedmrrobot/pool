@@ -19,8 +19,8 @@ public class sort{
 		for (int i = 0; i < nums.length; i++)
 			System.out.println(nums[i]);
 	}
-
-	static void convertInt(int nums[], String args[]){
+		
+static void convertInt(int nums[], String args[]){
 		for(int i = 0; i < nums.length; i++){
 			try{
 				nums[i] = Integer.parseInt(args[i]);
